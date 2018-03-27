@@ -52,7 +52,7 @@ var server = http.createServer(function(request, response) {
 })
 
 /*启动HTTP服务*/
-sever.listen(3000, function() {
+server.listen(3000, function() {
     console.log("server listen on port 3000");
 })
 
